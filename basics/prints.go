@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"os"
 	"strings"
-
-	"rsc.io/quote"
 )
 
 // variable declaration without assignment
@@ -15,10 +13,7 @@ var packageLevelOne int64
 var packageLevelTwo int64 = 42
 
 func printQuotes() {
-	fmt.Println(quote.Hello())
-	fmt.Println(quote.Glass())
-	fmt.Println(quote.Go())
-	fmt.Println(quote.Opt())
+	fmt.Println("Let's play with Go!!!")
 }
 
 func printEnv() {
@@ -34,8 +29,6 @@ func printVars() {
 }
 
 func runPrintsExample() {
-	fmt.Println("Hello, World!")
-
 	printQuotes()
 	printEnv()
 	printVars()
