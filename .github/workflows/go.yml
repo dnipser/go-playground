@@ -1,4 +1,4 @@
-name: CI workflow for playground projects
+name: CI workflow
 
 on:
   push:
